@@ -1,0 +1,59 @@
+.post-card-horizontal {
+    display: flex;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.post-card-horizontal:hover {
+    transform: scale(1.01);
+}
+
+.avatar-horizontal {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.post-content-section {
+    flex: 1;
+}
+
+.post-header-horizontal {
+    margin-bottom: 8px;
+}
+
+.username {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.timestamp {
+    color: #777;
+    font-size: 0.85rem;
+    display: block;
+}
+
+.post-content {
+    margin: 8px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.post-image-horizontal {
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.post-footer {
+    font-size: 0.9rem;
+    color: #555;
+}
